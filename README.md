@@ -1,6 +1,7 @@
 # Conditions for this repo
-
+```
 [] Checkout the branch 
-[] Dont push in main branch 
-[] Do meaning full commit message
+[] Don't push to the main branch 
+[] Do a meaningful commit message
 
+```
