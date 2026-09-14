@@ -1,0 +1,17 @@
+===========
+procedures
+===========
+
+1. download the dataset from sentimental 2 
+2. spectral band selection 
+3. creating the false color composition in QGIS 
+
+==========
+notes
+========== 
+- for vegetation we need to look the band 8 and band 4
+- ndvi (Normalized Difference Vegetation Index) 
+    formula 
+        (B8 - B4) / (B8 + B4)
+
+- python libs for processing the jp2 
