@@ -1,0 +1,160 @@
+Report_Type,Variable,Issue,Count,Details
+dataset,Target_Year,duplicate_target_years,0,none
+dataset,Target_Year,unexpected_year_gaps,0,none
+NASA_raw,"PARAMETER,YEAR",duplicate_parameter_year_records,0,checked before aggregation
+variable,Target_Year,missing_values,0,raw missingness is retained as NA
+variable,Target_Year,constant_variable,0,true means no temporal variation
+variable,Target_Year,IQR_outlier_years,0,none
+variable,Target_Year,impossible_values,0,not rule-checked
+variable,Coconut_Area_Hectare,missing_values,0,raw missingness is retained as NA
+variable,Coconut_Area_Hectare,constant_variable,0,true means no temporal variation
+variable,Coconut_Area_Hectare,IQR_outlier_years,0,none
+variable,Coconut_Area_Hectare,impossible_values,0,non-positive value
+variable,Coconut_Production_MillionUnit,missing_values,0,raw missingness is retained as NA
+variable,Coconut_Production_MillionUnit,constant_variable,0,true means no temporal variation
+variable,Coconut_Production_MillionUnit,IQR_outlier_years,2,"1981,1983"
+variable,Coconut_Production_MillionUnit,impossible_values,0,non-positive value
+variable,Coconut_Productivity_DeclaredMillionUnit_per_Hectare,missing_values,0,raw missingness is retained as NA
+variable,Coconut_Productivity_DeclaredMillionUnit_per_Hectare,constant_variable,0,true means no temporal variation
+variable,Coconut_Productivity_DeclaredMillionUnit_per_Hectare,IQR_outlier_years,0,none
+variable,Coconut_Productivity_DeclaredMillionUnit_per_Hectare,impossible_values,0,non-positive value
+variable,ALLSKY_SFC_SW_DWN_Annual_Total,missing_values,3,raw missingness is retained as NA
+variable,ALLSKY_SFC_SW_DWN_Annual_Total,constant_variable,0,true means no temporal variation
+variable,ALLSKY_SFC_SW_DWN_Annual_Total,IQR_outlier_years,3,"1989,2010,2021"
+variable,ALLSKY_SFC_SW_DWN_Annual_Total,impossible_values,0,not rule-checked
+variable,ALLSKY_SFC_SW_DWN_Jan_Feb_Total,missing_values,3,raw missingness is retained as NA
+variable,ALLSKY_SFC_SW_DWN_Jan_Feb_Total,constant_variable,0,true means no temporal variation
+variable,ALLSKY_SFC_SW_DWN_Jan_Feb_Total,IQR_outlier_years,1,1986
+variable,ALLSKY_SFC_SW_DWN_Jan_Feb_Total,impossible_values,0,not rule-checked
+variable,ALLSKY_SFC_SW_DWN_Mar_May_Total,missing_values,3,raw missingness is retained as NA
+variable,ALLSKY_SFC_SW_DWN_Mar_May_Total,constant_variable,0,true means no temporal variation
+variable,ALLSKY_SFC_SW_DWN_Mar_May_Total,IQR_outlier_years,0,none
+variable,ALLSKY_SFC_SW_DWN_Mar_May_Total,impossible_values,0,not rule-checked
+variable,ALLSKY_SFC_SW_DWN_Jun_Sep_Total,missing_values,3,raw missingness is retained as NA
+variable,ALLSKY_SFC_SW_DWN_Jun_Sep_Total,constant_variable,0,true means no temporal variation
+variable,ALLSKY_SFC_SW_DWN_Jun_Sep_Total,IQR_outlier_years,3,"2007,2013,2015"
+variable,ALLSKY_SFC_SW_DWN_Jun_Sep_Total,impossible_values,0,not rule-checked
+variable,ALLSKY_SFC_SW_DWN_Oct_Dec_Total,missing_values,3,raw missingness is retained as NA
+variable,ALLSKY_SFC_SW_DWN_Oct_Dec_Total,constant_variable,0,true means no temporal variation
+variable,ALLSKY_SFC_SW_DWN_Oct_Dec_Total,IQR_outlier_years,5,"1988,1994,1995,2010,2021"
+variable,ALLSKY_SFC_SW_DWN_Oct_Dec_Total,impossible_values,0,not rule-checked
+variable,PRECTOTCORR_Annual_Total,missing_values,0,raw missingness is retained as NA
+variable,PRECTOTCORR_Annual_Total,constant_variable,0,true means no temporal variation
+variable,PRECTOTCORR_Annual_Total,IQR_outlier_years,0,none
+variable,PRECTOTCORR_Annual_Total,impossible_values,0,negative accumulated precipitation
+variable,PRECTOTCORR_Jan_Feb_Total,missing_values,0,raw missingness is retained as NA
+variable,PRECTOTCORR_Jan_Feb_Total,constant_variable,0,true means no temporal variation
+variable,PRECTOTCORR_Jan_Feb_Total,IQR_outlier_years,4,"1984,1985,2000,2021"
+variable,PRECTOTCORR_Jan_Feb_Total,impossible_values,0,negative accumulated precipitation
+variable,PRECTOTCORR_Mar_May_Total,missing_values,0,raw missingness is retained as NA
+variable,PRECTOTCORR_Mar_May_Total,constant_variable,0,true means no temporal variation
+variable,PRECTOTCORR_Mar_May_Total,IQR_outlier_years,2,"2004,2006"
+variable,PRECTOTCORR_Mar_May_Total,impossible_values,0,negative accumulated precipitation
+variable,PRECTOTCORR_Jun_Sep_Total,missing_values,0,raw missingness is retained as NA
+variable,PRECTOTCORR_Jun_Sep_Total,constant_variable,0,true means no temporal variation
+variable,PRECTOTCORR_Jun_Sep_Total,IQR_outlier_years,0,none
+variable,PRECTOTCORR_Jun_Sep_Total,impossible_values,0,negative accumulated precipitation
+variable,PRECTOTCORR_Oct_Dec_Total,missing_values,0,raw missingness is retained as NA
+variable,PRECTOTCORR_Oct_Dec_Total,constant_variable,0,true means no temporal variation
+variable,PRECTOTCORR_Oct_Dec_Total,IQR_outlier_years,1,2021
+variable,PRECTOTCORR_Oct_Dec_Total,impossible_values,0,negative accumulated precipitation
+variable,RH2M_Annual_Mean,missing_values,0,raw missingness is retained as NA
+variable,RH2M_Annual_Mean,constant_variable,0,true means no temporal variation
+variable,RH2M_Annual_Mean,IQR_outlier_years,1,2021
+variable,RH2M_Annual_Mean,impossible_values,0,outside 0-100 percent
+variable,RH2M_Jan_Feb_Mean,missing_values,0,raw missingness is retained as NA
+variable,RH2M_Jan_Feb_Mean,constant_variable,0,true means no temporal variation
+variable,RH2M_Jan_Feb_Mean,IQR_outlier_years,2,"1989,2021"
+variable,RH2M_Jan_Feb_Mean,impossible_values,0,outside 0-100 percent
+variable,RH2M_Mar_May_Mean,missing_values,0,raw missingness is retained as NA
+variable,RH2M_Mar_May_Mean,constant_variable,0,true means no temporal variation
+variable,RH2M_Mar_May_Mean,IQR_outlier_years,0,none
+variable,RH2M_Mar_May_Mean,impossible_values,0,outside 0-100 percent
+variable,RH2M_Jun_Sep_Mean,missing_values,0,raw missingness is retained as NA
+variable,RH2M_Jun_Sep_Mean,constant_variable,0,true means no temporal variation
+variable,RH2M_Jun_Sep_Mean,IQR_outlier_years,0,none
+variable,RH2M_Jun_Sep_Mean,impossible_values,0,outside 0-100 percent
+variable,RH2M_Oct_Dec_Mean,missing_values,0,raw missingness is retained as NA
+variable,RH2M_Oct_Dec_Mean,constant_variable,0,true means no temporal variation
+variable,RH2M_Oct_Dec_Mean,IQR_outlier_years,0,none
+variable,RH2M_Oct_Dec_Mean,impossible_values,0,outside 0-100 percent
+variable,T2M_Annual_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_Annual_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_Annual_Mean,IQR_outlier_years,0,none
+variable,T2M_Annual_Mean,impossible_values,0,not rule-checked
+variable,T2M_Jan_Feb_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_Jan_Feb_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_Jan_Feb_Mean,IQR_outlier_years,0,none
+variable,T2M_Jan_Feb_Mean,impossible_values,0,not rule-checked
+variable,T2M_Mar_May_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_Mar_May_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_Mar_May_Mean,IQR_outlier_years,5,"1991,1998,2008,2016,2019"
+variable,T2M_Mar_May_Mean,impossible_values,0,not rule-checked
+variable,T2M_Jun_Sep_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_Jun_Sep_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_Jun_Sep_Mean,IQR_outlier_years,1,1985
+variable,T2M_Jun_Sep_Mean,impossible_values,0,not rule-checked
+variable,T2M_Oct_Dec_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_Oct_Dec_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_Oct_Dec_Mean,IQR_outlier_years,0,none
+variable,T2M_Oct_Dec_Mean,impossible_values,0,not rule-checked
+variable,T2M_MAX_Annual_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_MAX_Annual_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_MAX_Annual_Mean,IQR_outlier_years,1,2016
+variable,T2M_MAX_Annual_Mean,impossible_values,0,not rule-checked
+variable,T2M_MAX_Jan_Feb_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_MAX_Jan_Feb_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_MAX_Jan_Feb_Mean,IQR_outlier_years,0,none
+variable,T2M_MAX_Jan_Feb_Mean,impossible_values,0,not rule-checked
+variable,T2M_MAX_Mar_May_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_MAX_Mar_May_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_MAX_Mar_May_Mean,IQR_outlier_years,1,2008
+variable,T2M_MAX_Mar_May_Mean,impossible_values,0,not rule-checked
+variable,T2M_MAX_Jun_Sep_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_MAX_Jun_Sep_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_MAX_Jun_Sep_Mean,IQR_outlier_years,0,none
+variable,T2M_MAX_Jun_Sep_Mean,impossible_values,0,not rule-checked
+variable,T2M_MAX_Oct_Dec_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_MAX_Oct_Dec_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_MAX_Oct_Dec_Mean,IQR_outlier_years,1,2016
+variable,T2M_MAX_Oct_Dec_Mean,impossible_values,0,not rule-checked
+variable,T2M_MIN_Annual_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_MIN_Annual_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_MIN_Annual_Mean,IQR_outlier_years,0,none
+variable,T2M_MIN_Annual_Mean,impossible_values,0,not rule-checked
+variable,T2M_MIN_Jan_Feb_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_MIN_Jan_Feb_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_MIN_Jan_Feb_Mean,IQR_outlier_years,1,2003
+variable,T2M_MIN_Jan_Feb_Mean,impossible_values,0,not rule-checked
+variable,T2M_MIN_Mar_May_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_MIN_Mar_May_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_MIN_Mar_May_Mean,IQR_outlier_years,5,"1991,1998,2008,2016,2020"
+variable,T2M_MIN_Mar_May_Mean,impossible_values,0,not rule-checked
+variable,T2M_MIN_Jun_Sep_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_MIN_Jun_Sep_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_MIN_Jun_Sep_Mean,IQR_outlier_years,0,none
+variable,T2M_MIN_Jun_Sep_Mean,impossible_values,0,not rule-checked
+variable,T2M_MIN_Oct_Dec_Mean,missing_values,0,raw missingness is retained as NA
+variable,T2M_MIN_Oct_Dec_Mean,constant_variable,0,true means no temporal variation
+variable,T2M_MIN_Oct_Dec_Mean,IQR_outlier_years,0,none
+variable,T2M_MIN_Oct_Dec_Mean,impossible_values,0,not rule-checked
+variable,WS10M_Annual_Mean,missing_values,0,raw missingness is retained as NA
+variable,WS10M_Annual_Mean,constant_variable,0,true means no temporal variation
+variable,WS10M_Annual_Mean,IQR_outlier_years,0,none
+variable,WS10M_Annual_Mean,impossible_values,0,not rule-checked
+variable,WS10M_Jan_Feb_Mean,missing_values,0,raw missingness is retained as NA
+variable,WS10M_Jan_Feb_Mean,constant_variable,0,true means no temporal variation
+variable,WS10M_Jan_Feb_Mean,IQR_outlier_years,0,none
+variable,WS10M_Jan_Feb_Mean,impossible_values,0,not rule-checked
+variable,WS10M_Mar_May_Mean,missing_values,0,raw missingness is retained as NA
+variable,WS10M_Mar_May_Mean,constant_variable,0,true means no temporal variation
+variable,WS10M_Mar_May_Mean,IQR_outlier_years,3,"1990,2015,2021"
+variable,WS10M_Mar_May_Mean,impossible_values,0,not rule-checked
+variable,WS10M_Jun_Sep_Mean,missing_values,0,raw missingness is retained as NA
+variable,WS10M_Jun_Sep_Mean,constant_variable,0,true means no temporal variation
+variable,WS10M_Jun_Sep_Mean,IQR_outlier_years,0,none
+variable,WS10M_Jun_Sep_Mean,impossible_values,0,not rule-checked
+variable,WS10M_Oct_Dec_Mean,missing_values,0,raw missingness is retained as NA
+variable,WS10M_Oct_Dec_Mean,constant_variable,0,true means no temporal variation
+variable,WS10M_Oct_Dec_Mean,IQR_outlier_years,1,1997
+variable,WS10M_Oct_Dec_Mean,impossible_values,0,not rule-checked

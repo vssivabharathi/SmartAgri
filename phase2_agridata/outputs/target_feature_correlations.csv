@@ -1,0 +1,9 @@
+Feature,Correlation_With_Target,Absolute_Correlation,Sample_Size,Temporal_Status
+Coconut_Productivity_DeclaredMillionUnit_per_Hectare_Lag1,0.9149530371405138,0.9149530371405138,40,lagged / historical candidate
+T2M_Jun_Sep_Mean_Lag1,0.6007405453339019,0.6007405453339019,40,lagged / historical candidate
+ALLSKY_SFC_SW_DWN_Jan_Feb_Total_Lag3,0.5428143782879149,0.5428143782879149,35,lagged / historical candidate
+T2M_MIN_Jun_Sep_Mean_Lag1,0.5157935081851429,0.5157935081851429,40,lagged / historical candidate
+RH2M_Mar_May_Mean_Lag3,0.49145830712240196,0.49145830712240196,38,lagged / historical candidate
+WS10M_Mar_May_Mean_Lag1,-0.48996071304025496,0.48996071304025496,40,lagged / historical candidate
+PRECTOTCORR_Mar_May_Total_Lag3,0.44602166030979257,0.44602166030979257,38,lagged / historical candidate
+T2M_MAX_Jun_Sep_Mean_Lag2,0.41760109446032057,0.41760109446032057,39,lagged / historical candidate

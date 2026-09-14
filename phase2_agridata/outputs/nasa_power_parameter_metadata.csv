@@ -1,0 +1,8 @@
+Parameter,Physical_Meaning,Unit,Temporal_Resolution,Years,Duplicate_Year_Records,Missing_Monthly_Values,Missing_Annual_Values,Aggregation_Rule
+ALLSKY_SFC_SW_DWN,All-sky surface shortwave downward irradiance,MJ/m^2/day,monthly daily-rate/statistic plus supplied ANN,1981-2022,0,36,3,total_daily_rate
+PRECTOTCORR,Corrected precipitation,mm/day,monthly daily-rate/statistic plus supplied ANN,1981-2022,0,0,0,total_daily_rate
+RH2M,Relative humidity at 2 m,%,monthly daily-rate/statistic plus supplied ANN,1981-2022,0,0,0,day_weighted_mean
+T2M,Temperature at 2 m,C,monthly daily-rate/statistic plus supplied ANN,1981-2022,0,0,0,day_weighted_mean
+T2M_MAX,Temperature at 2 m maximum,C,monthly daily-rate/statistic plus supplied ANN,1981-2022,0,0,0,day_weighted_mean
+T2M_MIN,Temperature at 2 m minimum,C,monthly daily-rate/statistic plus supplied ANN,1981-2022,0,0,0,day_weighted_mean
+WS10M,Wind speed at 10 m,m/s,monthly daily-rate/statistic plus supplied ANN,1981-2022,0,0,0,day_weighted_mean
